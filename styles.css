@@ -4,6 +4,44 @@
     box-sizing: border-box;
 }
 
+:body {/*pseudoclase :: es seudoelemento*/
+    scroll-behavior: smooth; /*controlar el comportamiento del scroll, smooth es para que vaya directamente a una sección del sitio*/
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px; /*tamaño maximo de pantalla*/
+    overflow:hidden; /*lo que se desborda queda oculto*/
+    margin: auto; /*centra los elementos*/
+    padding: 64px 0; /*siempre hay espaciado entre los elementos*/
+}
+
+.header{
+    height: 100vh; /*ocupa el 100% de la pagina cuando se ve desde el principio*/
+    background-image: linear-gradient(to top, rgb(161, 140, 209, 0.5) 0%, rgb(251, 194, 235, 0.5) 100%), url(img/how-i-work.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex; /*para centrar el contenido dentro de la imagen*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /*para que queden un elemento debajo del otro*/
+    color: #000000;
+}
+
+.burger{
+    position: fixed;
+    top: 30px;
+    right:30px;
+    background: #ffff;
 }
