@@ -1,0 +1,1 @@
+Maquetación de página web de prueba utilizando https://webgradients.com/ para CSS, https://www.manypixels.co/ para iconografía e ilustraciones y https://unsplash.com/ para selección de imágenes de alta resolución
