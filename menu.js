@@ -1,8 +1,8 @@
 const burger = document.querySelector('.burger');
 const menu = document.querySelector('.menu-navegacion'); //se utiliza el punto para referenciar a la clase, como en CSS
 
-console.log(menu)
-console.log(burger)
+// console.log(menu)
+// console.log(burger)
 
 burger.addEventListener('click', ()=>{
     menu.classList.toggle("spread"); //cada vez que se haga click en la burger se le va a agregar o quitar la clase spread, dependiendo de si la tiene o no la tiene
